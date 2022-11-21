@@ -1,2 +1,2 @@
 # PacMan-Project
-How to move PacMan within a webpage
+How to move PacMan across a webpage
