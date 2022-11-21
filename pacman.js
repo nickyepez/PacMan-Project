@@ -34,12 +34,14 @@ function Run() {
 // method called setInterval(), so that you can have practice using this method.
 // Inside of the Run() function you will also have to add an extra argument "pageWidth", which is declared on line 4 when you call the checkPageBounds() function below. 
 setInterval(Run, 300)
+
 // This function determines the direction of PacMan based on screen edge detection. 
 function checkPageBounds(direction, imgWidth, pos, pageWidth) {
 
     // TODO: Complete this to reverse direction upon hitting screen edge
     if (direction == 0 && pos + imgWidth > pageWidth) direction = 1;
     if (direction == 1 && pos < 0) direction = 0;
+
     return direction;
 }
 //Please do not change
